@@ -66,6 +66,8 @@
 
             //  We need this because the assets are on github pages
             //  Remove the next 2 lines if running locally
+		this.load.baseURL = 'https://dionisis1234.github.io/pacman/';
+            this.load.crossOrigin = 'anonymous';
 			this.load.audio('lifeaudio','assets/lifeaudio.mp3');
 			this.load.audio('watteraudio', 'assets/MegaManWatter.mp3');
 			this.load.audio('dotaudio', 'assets/MegaManDots.mp3');
